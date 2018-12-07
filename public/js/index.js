@@ -8,6 +8,9 @@
 			this.valor = valor;
 		}
 
+		showValor(){
+
+		}
 
 	}
 
@@ -29,6 +32,9 @@
 
 
 
+
+
+ let containerElement = document.getElementById("task__container-js");
  let inputValue = document.getElementById("input__write-js");
  let button = document.getElementById("button___send-js");
 
