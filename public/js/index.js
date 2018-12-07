@@ -8,41 +8,41 @@
 			this.valor = valor;
 		}
 
-		showValor(){
+		showCard(){
+  // contenedor de los elementos
+ 		let containerElement = document.getElementById("task__container-js");
+ 		
+ 		// element card container value
+ 		let cardArticle = document.createElement("article");
+ 			cardArticle.setAttribute("class", "task__item");
+ 			
+
+ 		// elements value
+ 		
+ 		let elementVal = document.createElement("p");
+ 			elementVal.setAttribute("class", "task__value");
+ 			elementVal.textContent = this.valor;
+
+		let localValue = localStorage.setItem(value, [])
 
 		}
 
 	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- let containerElement = document.getElementById("task__container-js");
- let inputValue = document.getElementById("input__write-js");
+ // valor de entradas
+ let inputValue = document.getElementById("input__write-js");4
+ // button click
  let button = document.getElementById("button___send-js");
 
- if(inputValue && button){
+
+ function Tasking(inputValue,button){
+
+ 	button.addEventListener("click",()=>{
+ 		let newInstanceClassOfTask = new Task();
+ 			newInstanceClassOfTask.showCard();
+ 	},false);
 
  }
-
-
 
 
 
